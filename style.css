@@ -136,8 +136,21 @@ hr{
     object-fit: cover;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 
 }
+/* my trials to pop thumbnails*/
+.pop-image {
+    transition: transform 0.3s; /* Apply a smooth transition */
+  }
+  
+  .pop-image:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+  }
+  
+
+
+/* trials to pop ends */
 .author img{
     object-fit: cover;
     border-radius: 50%;
