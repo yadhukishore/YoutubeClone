@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-/* to remove all default margins */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* target the body for the font family  */
+
 body{
     font-family: 'Roboto',sans-serif;
 }
@@ -93,12 +93,14 @@ body{
     background-color: rgb(196, 203, 203);
     cursor: pointer;
 }
-/* code to hide scroll bar */
+
+
 .sidebar::-webkit-scrollbar{
     display: none;
 }
 
-/* up to here */
+
+
 hr{
     height: 1px;
     background-color: grey;
@@ -140,18 +142,18 @@ hr{
     border-radius: 20px;
 
 }
-/* my trials to pop thumbnails*/
+
 .pop-image {
-    transition: transform 0.3s; /* Apply a smooth transition */
+    transition: transform 0.3s; 
   }
   
   .pop-image:hover {
-    transform: scale(1.1); /* Enlarge the image on hover */
+    transform: scale(1.1);
   }
   
 
 
-/* trials to pop ends */
+
 .author img{
     object-fit: cover;
     border-radius: 50%;
